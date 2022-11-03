@@ -5,8 +5,7 @@ const ChildBalance = (props) => {
     const totalRemainingData = props.data?.balances?.[1].totalRemaining;
     const totalRemainingSMS = props.data?.balances?.[2].totalRemaining;
     const totalRemainingMMS= props.data?.balances?.[4].totalRemaining;
-    console.log("totalRemainingtotalRemainingtotalRemaining", totalRemaining)
-  return (
+   return (
       <Fragment>
               <Fragment>
               

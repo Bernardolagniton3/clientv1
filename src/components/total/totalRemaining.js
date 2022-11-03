@@ -8,10 +8,6 @@ const sms = props.data[2]?.totalRemaining;
 const mms = props.data[3]?.totalRemaining;   
 
 
-   console.log("voice", voice)
-   console.log("data", data)
-   console.log("sms", sms)
-   console.log("mms", mms)
 /* 
     const contentTotalRemaining = data?.map((item, index) => {
         return(         

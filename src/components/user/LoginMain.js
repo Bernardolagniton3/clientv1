@@ -26,9 +26,9 @@ const LoginMain = () => {
                 //setUsernameString(false)
                 setMs(event.target.value);
             
-            console.log('✅ It is a valid number');
+           // console.log('✅ It is a valid number');
         } else {
-          console.log('⛔️ It is NOT a valid number');
+         // console.log('⛔️ It is NOT a valid number');
                 setNumberTrue(false) 
                // setUsernameString(true)
                 setUserName(event.target.value);
@@ -48,7 +48,7 @@ const LoginMain = () => {
                     window.location.href = "/LoginOtpEnter";
 
                 } else {
-                    console.log(response['message'])
+                   // console.log(response['message'])
                 }
             }).catch(error => {
                 console.log("some error occurred", error);

@@ -27,14 +27,13 @@ const LoginOtpEnter = () => {
                  setValidate(true)
                  setOtpText(false)
             } else {
-                console.log(response['message'])
+               // console.log(response['message'])
             }
         }).catch(error => {
-            console.log("some error occurred", error);
-            setValidOtp(true);
+             setValidOtp(true);
         });
     }
-    console.log("profile", items)
+   
  
     useEffect(() => {
         const items = JSON.parse(sessionStorage.getItem('otp'));

@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect  } from 'react'
  
 const ChildNumber = (props) => {
-  //console.log(props.isOpen)
+ 
  
   const [Tokennew, setToken] = useState();
   const [validate, setValidate] = useState(false);
@@ -69,8 +69,7 @@ const ChildNumber = (props) => {
           
       }).then(data => {
         /*   setData(data)  */
-          console.log("DATA graphqlDATA graphqlDATA graphqlDATA graphqlDATA graphql",data);
-          // setUserProfile(data.data.user);
+           // setUserProfile(data.data.user);
           setUserChildBalance(data.data.customerBalance);
          
       })
